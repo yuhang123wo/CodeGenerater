@@ -20,7 +20,6 @@ import ${conf.basePackage}.${conf.mapperPackage}<#if prefixName??>.${prefixName}
 /**
  * @类说明：
  * ${table.tableDesc}
- * @author YANGJIE
  * @创建时间：${.now}
  */
 @Component("${beanNameUncap_first}Service")

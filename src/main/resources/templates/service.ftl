@@ -9,7 +9,6 @@ import org.springframework.data.domain.Page;
 /**
  * @类说明：
  * ${table.tableDesc}
- * @author YANGJIE
  * @创建时间：${.now}
  */
 public interface ${beanName}Service {

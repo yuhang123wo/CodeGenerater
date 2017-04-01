@@ -13,7 +13,6 @@ import org.apache.ibatis.annotations.Param;
 /**
  * @类说明：
  * ${table.tableDesc}
- * @author YANGJIE
  * @version 1.0
  * @创建时间：${.now}
  */

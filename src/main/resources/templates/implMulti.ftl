@@ -18,7 +18,6 @@ import ${conf.basePackage}.${conf.mapperPackage}<#if prefixName??>.${prefixName}
 /**
  * @类说明：
  * ${comments}
- * @author YANGJIE
  * @version 1.0
  * @创建时间：${.now}
  */

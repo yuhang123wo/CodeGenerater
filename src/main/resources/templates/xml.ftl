@@ -20,7 +20,6 @@
 	
 	<sql id="where${beanName}">
         <where>
-        	1=1
         	<!-- <if test="xxx!=null">
         		and xxx_xx=<@mapperEl "xxx"/>
         	</if>

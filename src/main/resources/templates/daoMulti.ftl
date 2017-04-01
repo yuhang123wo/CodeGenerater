@@ -15,7 +15,6 @@ import org.apache.ibatis.annotations.Param;
 /**
  * @类说明：
  * ${comments}
- * @author YANGJIE
  * @version 1.0
  * @创建时间：${.now}
  */

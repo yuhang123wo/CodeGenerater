@@ -3,7 +3,6 @@ package ${conf.basePackage}.enums;
 
 /**
  * ${field.columnRemarks}
- * @author YANGJIE
  * @version 1.0
  * @创建时间：${.now}
  */
