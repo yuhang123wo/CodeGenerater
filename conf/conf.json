@@ -1,0 +1,68 @@
+[
+	{
+		"name":"购途支付",
+		"isDefault":0,
+		"config":{
+			"databaseName":"pay",
+			"basePackage":"com.go2.pay.core",
+			"beanPackage":"domain",
+			"daoPackage":"dao",
+			"mapperPackage":"dao",
+			"servicePackage":"service",
+			"controllerPackage":"controller",
+			"entityPackage":"import com.go2.pay.core.common.entity.Entity.java;",
+			"enumPackage":"import com.go2.pay.core.domain.dict.",
+			"tables":"all",
+			"needModules":"bean,mapper,xml,service,impl",
+			"path":"C:\\\\Users\\\\Administrator\\\\Desktop\\\\code\\\\pay",
+			"driver":"com.mysql.jdbc.Driver",
+			"url":"jdbc:mysql://127.0.0.1/pay?useUnicode=true&characterEncoding=utf-8",
+			"username":"root",
+			"password":"root"
+		}
+	},
+	{
+		"name":"程序员助手",
+		"isDefault":0,
+		"config":{
+			"databaseName":"partime",
+			"basePackage":"com.partime.platform",
+			"beanPackage":"domain",
+			"daoPackage":"dao",
+			"mapperPackage":"dao",
+			"servicePackage":"service",
+			"controllerPackage":"controller",
+			"entityPackage":"import com.partime.platform.common.entity.Entity.java;",
+			"enumPackage":"import com.partime.platform.domain.dict.",
+			"tables":"all",
+			"needModules":"bean,mapper,xml,service,impl",
+			"path":"C:\\\\Users\\\\Administrator\\\\Desktop\\\\code\\\\partime",
+			"driver":"com.mysql.jdbc.Driver",
+			"url":"jdbc:mysql://127.0.0.1/partime?useUnicode=true&characterEncoding=utf-8",
+			"username":"root",
+			"password":"root"
+		}
+	},
+	{
+		"name":"购商宝",
+		"isDefault":1,
+		"config":{
+			"databaseName":"shipping_manager",
+			"basePackage":"com.go2.shipping.core",
+			"beanPackage":"domain",
+			"daoPackage":"dao",
+			"mapperPackage":"dao",
+			"servicePackage":"service",
+			"controllerPackage":"controller",
+			"entityPackage":"import com.go2.shipping.common.entity.Entity;",
+			"enumPackage":"import com.go2.shipping.core.enums.",
+			"tables":"all",
+			"needModules":"bean,mapper,xml,service,impl",
+			"path":"C:\\\\Users\\\\Administrator\\\\Desktop\\\\code\\\\shipping_manager",
+			"driver":"com.mysql.jdbc.Driver",
+			"url":"jdbc:mysql://192.168.1.11/shipping_manager?useUnicode=true&characterEncoding=utf-8",
+			"username":"go2daifa_test",
+			"password":"C!ZOJ126WLuWPB$9"
+		}
+	}
+]
