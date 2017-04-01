@@ -45,7 +45,7 @@
 	},
 	{
 		"name":"购商宝",
-		"isDefault":1,
+		"isDefault":0,
 		"config":{
 			"databaseName":"shipping_manager",
 			"basePackage":"com.go2.shipping.core",
@@ -63,6 +63,25 @@
 			"url":"jdbc:mysql://192.168.1.11/shipping_manager?useUnicode=true&characterEncoding=utf-8",
 			"username":"go2daifa_test",
 			"password":"C!ZOJ126WLuWPB$9"
+		}
+	},
+	{
+		"name":"jeeWeb",
+		"isDefault":1,
+		"config":{
+			"databaseName":"jeeWeb",
+			"basePackage":"com.yu.hang.core",
+			"beanPackage":"domain",
+			"daoPackage":"dao",
+			"mapperPackage":"dao",
+			"servicePackage":"service",
+			"controllerPackage":"controller",
+			"entityPackage":"import com.yu.hang.entity.Entity;",
+			"enumPackage":"import com.yu.hang.core.enums.",
+			"tables":"all",
+			"needModules":"bean,mapper,xml,service,impl",
+			"path":"C:\\\\Users\\\\Administrator\\\\Desktop\\\\code\\\\jeeWeb",
+			"driver":"com.mysql.jdbc.Driver"
 		}
 	}
 ]

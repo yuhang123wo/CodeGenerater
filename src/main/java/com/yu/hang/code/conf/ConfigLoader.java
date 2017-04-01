@@ -44,26 +44,9 @@ public class ConfigLoader {
 				};
 			});
 			curr = configVos.get(0);
+			System.out.println(curr);
 		}
 	}
-
-	public static void main(String[] args) {
-		ConfigLoader configLoader = ConfigLoader.getInstance();
-		System.out.println(configLoader.getConfigVos());
-		System.out.println(configLoader.getConfigVos().get(0).getConfig());
-		System.out.println(configLoader.getCurr());
-		if (configLoader.getConfigVos().size() == 0) {
-			List<ConfigVo> confs = configLoader.getConfigVos();
-			ConfigVo cv = new ConfigVo();
-			Config config = new Config();
-			config.setDatabaseName("shipping_manage");
-			cv.setName("partime");
-			cv.setConfig(config);
-			confs.add(cv);
-			configLoader.saveToJson();
-		}
-	}
-
 	public static synchronized ConfigLoader getInstance() {
 		if (configLoader == null)
 			configLoader = new ConfigLoader();
